@@ -1,0 +1,29 @@
+.mainContainer{
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+.note{
+  max-width: 50%;
+  display: inline-block;
+}
+.edit, .delete{
+  float: right;
+}
+#notesHeader{
+  margin-right: 500px;
+  margin-bottom: 50px;
+}
+#logout{
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+html{
+  font-family: 'Open Sans', sans-serif;
+}
+button{
+  width: 75px;
+  height: 20px;
+}
